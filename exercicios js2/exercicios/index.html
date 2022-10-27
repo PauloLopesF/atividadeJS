@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de compras</title>
+    <script src="script.js"></script>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Magazine Horácio</h1>
+
+    <h4 id="resul"></h4>
+
+    <div class="calculadora">
+        <h3>Exercicio calculadora</h3>
+    <form action="">
+        <label for="inputform">numero1: </label><input type="number" id="numero1" placeholder="insira o primeiro numero"><br>
+        <label for="inputform">numero2: </label><input type="number" id="numero2" placeholder="insira  o segundo numero"><br>
+        <input type="button" id="button" onclick="somar()" value="Somar">
+        <input type="button" id="button" onclick="subtrair()" value="Subtrair">
+        <input type="button" id="button" onclick="potencia()" value="Potencia">   
+    </form>
+</div>
+
+
+
+
+<div class="cadastro">
+    <h3>Exercicio Cadastro</h3>
+    <h4 id="ultimoCadastro"></h4>
+    <form action="">
+        <label for="inputform">Nome:     </label><input type="text" id="InputNome" placeholder="insira seu nome"><br>
+        <label for="inputform">Idade:    </label><input type="number" id="InputIdade" placeholder="insira sua idade"><br> 
+        <label for="inputform">Telefone: </label><input type="number" id="InputTelefone" placeholder="insira seu telefone"><br> 
+        <label for="inputform">CEP:      </label><input type="number" id="InputCep" placeholder="insira seu CEP"><br> 
+        <label for="inputform">Endereço: </label><input type="text" id="InputEndereco" placeholder="insira seu endereço"><br>
+        <input type="button" id="button" onclick="enviar()" value="Enviar">
+    </form>
+
+
+</div>
+
+
+<div class="carro">
+    <h3>Exercicio Carro</h3>
+    <h4 id="ultimoCarro"></h4>
+    <form action="">
+        <label for="inputform">Modelo:     </label><input type="text" id="InputModelo" placeholder="insira seu Modelo"><br>
+        <label for="inputform">Ano De Lancamento:    </label><input type="number" id="InputAnoDeLancamento" placeholder="insira sua AnoDeLancamento"><br> 
+        <label for="inputform">Cor: </label><input type="text" id="InputCor" placeholder="insira seu Cor"><br> 
+        <label for="inputform">Preço:      </label><input type="number" id="InputPreco" placeholder="insira o Preço"><br> 
+        <input type="button" id="button" onclick="cadastroCarro()" value="Cadastrar Carro">
+    </form>
+
+
+</div>
+</body>
+</html>
+
+
+
+

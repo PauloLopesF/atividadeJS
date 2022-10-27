@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box
+  }
+
+.cadastro {
+    margin-top: 20px;
+}
+
+
+.calculadora {
+    margin-top: 20px;
+}
+
+#button {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.carro {
+    margin-top: 20px;
+}
+
+label {
+    width: 150px;
+
+}

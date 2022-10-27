@@ -1,0 +1,35 @@
+* criou uma estrutura cliente let com os dados vazios ""
+* criou uma função Cadastrar
+
+*documento, a partir do id, valor do elemento. 
+document.getElementById("inputNome").value
+document.getElementById("inputIdade").value
+document.getElementById("inputCPF").value
+document.getElementById("inputCep").value
+document.getElementById("inputEndereco").value
+
+* listaDeClientes.push(cliente)
+* console.log(listaDeClientes)
+
+* colocar o nome na tela
+<h4 id="Usuario"></h4>
+let nomeDoUsuario = documento.getElementById("Usuario")
+nomeDoUsuario.innerText = cliente.Nome
+
+OU 
+
+documento.getElementById("Usuario").innerText = cliente.Nome
+
+* criar um elemento html
+* exibir uma lista de usuarios
+var ul = documento.getElementById("listaDeUsusarios");
+var li = documento.createElement("li");
+<li></li>
+li.appendChild(document.createTextNode(cliente.Nome));
+<li>cliente.Nome</li>
+ul.appendChild(li);
+<ul>
+<li></li>
+</ul>
+
+* função do botão exibir exibe utilizando console.log
